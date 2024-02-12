@@ -83,7 +83,7 @@ function cloneEmployeeDB() {
       let { department } = EmployeeDB.employees[id];
       departments.add(department);
     }
-    console.log("Уникальные отделы:", ...departments);
+    console.log("Unique departments:", ...departments);
   }
 
 // Часть 4
